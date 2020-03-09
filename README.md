@@ -9,7 +9,7 @@ Conference on Computer Vision and Pattern Recognition (ECCV) 2020
 
 Our network architecture adopts [SpatialEmbedding](https://github.com/davyneven/SpatialEmbeddings) as the segmentation sub-network. 
 The current ranking of PointTrack is available in [KITTI leader-board](http://www.cvlibs.net/datasets/kitti/eval_mots.php). Until now (03/09/2020), PointTrack still ranks first for both cars and pedestrians. The screenshot is saved as `The KITTI Vision Benchmark Suite - MOTS - 20200309.pdf` under this repo.
-The detail task description of MOTS is avaliable in [MOTS challenge](https://www.vision.rwth-aachen.de/page/mots).  
+The detailed task description of MOTS is avaliable in [MOTS challenge](https://www.vision.rwth-aachen.de/page/mots).  
 
 
 ## License
