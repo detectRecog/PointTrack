@@ -22,7 +22,10 @@ This codebase showcases the proposed framework named PointTrack for MOTS using t
 
 ### Prerequisites
 Dependencies: 
-- Pytorch 1.4
+- Pytorch 1.3.1 (and others), please set up an virtual env and run:
+```
+$ pip install -r requirements.txt
+```
 - Python 3.6 (or higher)
 - [KITTI Images](http://www.cvlibs.net/download.php?file=data_tracking_image_2.zip) + [Annotations](https://www.vision.rwth-aachen.de/media/resource_files/instances.zip)
 
