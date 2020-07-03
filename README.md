@@ -1,9 +1,9 @@
-# PointTrack: Segment as Points for Efficient Online Multi-Object Tracking and Segmentation
+# PointTrack(ECCV 2020 ORAL): Segment as Points for Efficient Online Multi-Object Tracking and Segmentation
 
-This codebase implements the highly efficient framework for multi-object tracking and segmentation (MOTS) described in: 
+This codebase implements **PointTrack** (and its extention **PointTrack++**), a highly effective framework for multi-object tracking and segmentation (MOTS) described in: 
 
 [Segment as Points for Efficient Online Multi-Object Tracking and Segmentation](TBD)
-Zhenbo Xu, Wei Zhang, Xiao Tan, Wei Yang*, Huan Huang, Shilei Wen, Errui Ding, Liusheng Huang,
+**Zhenbo Xu**, Wei Zhang, Xiao Tan, Wei Yang*, Huan Huang, Shilei Wen, Errui Ding, Liusheng Huang,
 Conference on Computer Vision and Pattern Recognition (ECCV) 2020
 
 
@@ -11,10 +11,6 @@ Our network architecture adopts [SpatialEmbedding](https://github.com/davyneven/
 The current ranking of PointTrack is available in [KITTI leader-board](http://www.cvlibs.net/datasets/kitti/eval_mots.php). Until now (03/09/2020), PointTrack still ranks first for both cars and pedestrians. The screenshot is saved as `The KITTI Vision Benchmark Suite - MOTS - 20200309.pdf` under this repo.
 The detailed task description of MOTS is avaliable in [MOTS challenge](https://www.vision.rwth-aachen.de/page/mots).  
 
-
-## License
-
-This software is released under a creative commons license which allows for personal and research use only. For a commercial license please contact the authors. You can view a license summary [here](http://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Getting started
 
@@ -145,14 +141,18 @@ We borrow some code from [SpatialEmebdding](https://github.com/davyneven/Spatial
   booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
   year={2020}
 }
+
 ```
 
 ## Contact
-If you find a problem in the code, please open an issue.
+If you find problems in the code, please open an issue.
 
 For general questions, please contact the corresponding author Wei Yang (qubit@ustc.edu.cn).
 
 
+## License
+
+This software is released under a creative commons license which allows for personal and research use only. For a commercial license please contact the authors. You can view a license summary [here](http://creativecommons.org/licenses/by-nc/4.0/).
 
 
 
