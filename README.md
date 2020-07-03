@@ -137,13 +137,14 @@ $ python -u train_SE.py car_finetune_SE_mots
 
 
 ## Cite us
+```
 @inproceedings{xu2020Segment,
   title={Segment as Points for Efficient Online Multi-Object Tracking and Segmentation},
   author={Xu, Zhenbo and Zhang, Wei and Tan, Xiao and Yang, Wei and Huang, Huan and Wen, Shilei and Ding, Errui and Huang, Liusheng},
   booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
   year={2020}
 }
-
+```
 
 ## Contact
 If you find a problem in the code, please open an issue.
