@@ -137,6 +137,7 @@ $ python -u train_SE.py car_finetune_SE_mots
 
 
 ## Cite us
+We borrow some code from [SpatialEmebdding](https://github.com/davyneven/SpatialEmbeddings).
 ```
 @inproceedings{xu2020Segment,
   title={Segment as Points for Efficient Online Multi-Object Tracking and Segmentation},
