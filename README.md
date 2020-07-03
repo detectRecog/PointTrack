@@ -1,4 +1,4 @@
-# PointTrack(ECCV2020 ORAL): Segment as Points for Efficient Online Multi-Object Tracking and Segmentation
+## PointTrack(ECCV2020 ORAL): Segment as Points for Efficient Online Multi-Object Tracking and Segmentation
 
 This codebase implements **PointTrack** (and its extention **PointTrack++**), a highly effective framework for multi-object tracking and segmentation (MOTS) described in: 
 
@@ -148,7 +148,7 @@ We borrow some code from [SpatialEmebdding](https://github.com/davyneven/Spatial
 1. Where is the APOLLO MOTS?
 - As suggested by ECCV reviewers, APOLLO MOTS should be revised before publish.
 
-2.Why is the training of **Temporal Seed Consistency** not included in this repo?
+2. Why is the training of **Temporal Seed Consistency** not included in this repo?
 - In PointTrack++, we find that the improvement of the temporal seed consistency is minor. Therefore, in this repo, we provide this simplified version for easy usage.
 
 3. The schedule of PointTrack++.
