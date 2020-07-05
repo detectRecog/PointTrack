@@ -6,6 +6,7 @@ This codebase implements **PointTrack** (and its extention **PointTrack++**), a 
 **Zhenbo Xu**, Wei Zhang, Xiao Tan, Wei Yang*, Huan Huang, Shilei Wen, Errui Ding, Liusheng Huang,
 Conference on Computer Vision and Pattern Recognition (ECCV) 2020
 
+**PointTrack presents a new learning strategy for pixel-wise feature learning on the 2D image plane, which has proven to be effective for instance association.**
 
 Our network architecture adopts [SpatialEmbedding](https://github.com/davyneven/SpatialEmbeddings) as the segmentation sub-network. 
 The current ranking of PointTrack is available in [KITTI leader-board](http://www.cvlibs.net/datasets/kitti/eval_mots.php). Until now (07/03/2020), PointTrack++ still ranks first for both cars and pedestrians.
