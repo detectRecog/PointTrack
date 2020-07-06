@@ -2,7 +2,7 @@
 
 This codebase implements **PointTrack** (and its extention **PointTrack++**), a highly effective framework for multi-object tracking and segmentation (MOTS) described in: 
 
-[Segment as Points for Efficient Online Multi-Object Tracking and Segmentation](TBD)
+[Segment as Points for Efficient Online Multi-Object Tracking and Segmentation](https://arxiv.org/abs/2007.01550)
 **Zhenbo Xu**, Wei Zhang, Xiao Tan, Wei Yang*, Huan Huang, Shilei Wen, Errui Ding, Liusheng Huang,
 Conference on Computer Vision and Pattern Recognition (ECCV) 2020
 
