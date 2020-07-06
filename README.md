@@ -6,6 +6,10 @@ This codebase implements **PointTrack** (and its extention **PointTrack++**), a 
 **Zhenbo Xu**, Wei Zhang, Xiao Tan, Wei Yang*, Huan Huang, Shilei Wen, Errui Ding, Liusheng Huang,
 Conference on Computer Vision and Pattern Recognition (ECCV) 2020
 
+[Segment as Points for Efficient Online Multi-Object Tracking and Segmentation](https://arxiv.org/abs/2007.01550)
+**Zhenbo Xu**, Wei Zhang, Xiao Tan, Wei Yang*, Huan Huang, Shilei Wen, Errui Ding, Liusheng Huang,
+Conference on Computer Vision and Pattern Recognition (ECCV) 2020
+
 **PointTrack presents a new learning strategy for pixel-wise feature learning on the 2D image plane, which has proven to be effective for instance association.**
 
 Our network architecture adopts [SpatialEmbedding](https://github.com/davyneven/SpatialEmbeddings) as the segmentation sub-network. 
@@ -142,7 +146,12 @@ We borrow some code from [SpatialEmebdding](https://github.com/davyneven/Spatial
   booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
   year={2020}
 }
-
+@inproceedings{xupointtrack++,
+  title={PointTrack++ for Effective Online Multi-Object Tracking and Segmentation},
+  author={Xu, Zhenbo and Zhang, Wei and Tan, Xiao and Yang, Wei and Su, Xiangbo and Yuan, Yuchen and Zhang, Hongwu and Wen, Shilei and Ding, Errui and Huang, Liusheng},
+  booktitle={CVPR Workshops},
+  year={2020}
+}
 ```
 
 ## Q&A
