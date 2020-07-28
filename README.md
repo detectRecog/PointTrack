@@ -1,5 +1,7 @@
 ## PointTrack(ECCV2020 ORAL): Segment as Points for Efficient Online Multi-Object Tracking and Segmentation
 
+## The code is currently unavailable. To better support Paddlepaddle, we will release the Paddlepaddle version together later.
+
 This codebase implements **PointTrack** (and its extention **PointTrack++**), a highly effective framework for multi-object tracking and segmentation (MOTS) described in: 
 
 [Segment as Points for Efficient Online Multi-Object Tracking and Segmentation](https://arxiv.org/abs/2007.01550)
