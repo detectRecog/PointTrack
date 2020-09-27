@@ -1,6 +1,6 @@
 ## PointTrack(ECCV2020 ORAL): Segment as Points for Efficient Online Multi-Object Tracking and Segmentation
 
-## The code is currently unavailable. To better support Paddlepaddle, we will release the Paddlepaddle version together later.
+## APOLLO MOTS (v1) is currently available. [APOLLO MOTS (code: vqp8)](https://pan.baidu.com/s/1kCK6tgoYEk-mnogMa94ZMQ). 
 
 This codebase implements **PointTrack** (and its extention **PointTrack++**), a highly effective framework for multi-object tracking and segmentation (MOTS) described in: 
 
