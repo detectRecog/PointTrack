@@ -1,16 +1,14 @@
 ## PointTrack(ECCV2020 ORAL): Segment as Points for Efficient Online Multi-Object Tracking and Segmentation
 
-## APOLLO MOTS (v1) is currently available. [APOLLO MOTS (code: vqp8)](https://pan.baidu.com/s/1kCK6tgoYEk-mnogMa94ZMQ). 
+## APOLLO MOTS (v1) is currently available. [APOLLO MOTS (code: vqp8)](https://pan.baidu.com/s/1kCK6tgoYEk-mnogMa94ZMQ).
 
-This codebase implements **PointTrack** (and its extention **PointTrack++**), a highly effective framework for multi-object tracking and segmentation (MOTS) described in: 
+This codebase implements **PointTrack** (and its extention **PointTrackV2**), a highly effective framework for multi-object tracking and segmentation (MOTS) described in: 
 
 [Segment as Points for Efficient Online Multi-Object Tracking and Segmentation](https://arxiv.org/abs/2007.01550)
 **Zhenbo Xu**, Wei Zhang, Xiao Tan, Wei Yang*, Huan Huang, Shilei Wen, Errui Ding, Liusheng Huang,
 Conference on Computer Vision and Pattern Recognition (ECCV) 2020
 
-[PointTrack++ for Effective Online Multi-Object Tracking and Segmentation](https://arxiv.org/abs/2007.01549)
-**Zhenbo Xu**, Wei Zhang, Xiao Tan, Wei Yang*, Xiangbo Su, Yuchen Yuan, Hongwu Zhang, Shilei Wen, Errui Ding, Liusheng Huang,
-Conference on Computer Vision and Pattern Recognition (CVPR) Workshops 2020
+PointTrackV2 is submitted to TPAMI.
 
 **PointTrack presents a new learning strategy for pixel-wise feature learning on the 2D image plane, which has proven to be effective for instance association.**
 
