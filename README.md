@@ -4,9 +4,14 @@
 
 This codebase implements **PointTrack** (and its extention **PointTrackV2**), a highly effective framework for multi-object tracking and segmentation (MOTS) described in: 
 
-[Segment as Points for Efficient Online Multi-Object Tracking and Segmentation](https://arxiv.org/abs/2007.01550)
-**Zhenbo Xu**, Wei Zhang, Xiao Tan, Wei Yang*, Huan Huang, Shilei Wen, Errui Ding, Liusheng Huang,
-Conference on Computer Vision and Pattern Recognition (ECCV) 2020
+```
+@inproceedings{xu2020Segment,
+  title={Segment as Points for Efficient Online Multi-Object Tracking and Segmentation},
+  author={Xu, Zhenbo and Zhang, Wei and Tan, Xiao and Yang, Wei and Huang, Huan and Wen, Shilei and Ding, Errui and Huang, Liusheng},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  year={2020}
+}
+```
 
 PointTrackV2 is submitted to TPAMI.
 
