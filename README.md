@@ -62,6 +62,7 @@ We provide fine-tuned models on KITTI MOTS (for cars):
 - SpatialEmbedding for cars.
 - PointTrack for cars.
 You can download them via [Baidu Disk](https://pan.baidu.com/s/1Mk9JWNcM1W08EAjhyq0yLA) or [Google Drive](https://drive.google.com/open?id=14Hn4ZztfjGUYEjVd-9FRNB5a-CtBkPXc).
+- testset segs can be found in the folder 'testset_segs'.
 
 
 ## Testing
@@ -91,7 +92,7 @@ The training procedure of instance association is as follows.
 2.To generate the instance DB from videos:
 ```
 $ python -u datasets/MOTSInstanceMaskPool.py
-``` 
+```
 
 3.Change the line which loads weights to the default path as follows:
 ```
@@ -101,7 +102,7 @@ checkpoint_path='./pointTrack_weights/PointTrack.pthCar' --> checkpoint_path='./
 4.Afterwards start training:
 ```
 $ python -u train_tracker_with_val.py car_finetune_tracking
-``` 
+```
 The best tracker on the validation set will be saved under the folder specified in **repoRoot**/config_mots/car_finetune_tracking.py.
 
 
@@ -117,18 +118,18 @@ Different foreground weights are adopted for different classes (200 for cars and
 0.As there are many in-valid frames in MOTS that contain no cars, we only select these valid frames for training SpatialEmbedding.
  ```
 $ python -u datasets/MOTSImageSelect.py
-``` 
+ ```
 
 1.To parse KINS annotations, run:
 ```
 $ python -u datasets/ParseKINSInstance.py
-``` 
+```
 After this step, KINS annotations are saved under **kittiRoot**/training/KINS/ and **kittiRoot**/testing/KINS/.
 
 2.To generate these crops do the following:
 ```
 $ python -u utils/generate_crops.py
-``` 
+```
 After this step, crops are saved under **kittiRoot**/crop_KINS. (roughly 92909 crops)
 
 3.Afterwards start training on crops: 
