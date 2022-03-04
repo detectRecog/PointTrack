@@ -11,9 +11,18 @@ This codebase implements **PointTrack** (and its extention **PointTrackV2**), a 
   booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
   year={2020}
 }
+@article{xu2021segment,
+  title={Segment as Points for Efficient and Effective Online Multi-Object Tracking and Segmentation},
+  author={Xu, Zhenbo and Yang, Wei and Zhang, Wei and Tan, Xiao and Huang, Huan and Huang, Liusheng},
+  journal={IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+  number={01},
+  pages={1--1},
+  year={2021},
+  publisher={IEEE Computer Society}
+}
 ```
 
-PointTrackV2 is submitted to TPAMI.
+PointTrackV2 is accepted to TPAMI. The code is available in https://github.com/detectRecog/CCP.
 
 **PointTrack presents a new learning strategy for pixel-wise feature learning on the 2D image plane, which has proven to be effective for instance association.**
 
