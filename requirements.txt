@@ -8,7 +8,7 @@ munkres==1.1.2
 cython==0.29.15
 pycocotools==2.0.0
 scikit-image==0.15.0
-scipy==1.3.0
+scipy==1.10.0
 matplotlib==3.0.0
 pandas==0.25.1
 cvbase==0.5.5
